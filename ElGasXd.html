@@ -1,0 +1,200 @@
+<script>
+    var pipa = 1000;
+    var camion = [10,10,10,10];
+    var ganancias = 0;
+    do{
+        var pedir = parseInt(prompt("1.-Tanque \n 2.-Pipa  \n 3.-Administracion \n 4.-Salir"));
+
+        switch (pedir) {
+            case 1:
+                tanque();
+                break;
+            case 2:
+                litros();
+
+                break;
+            case 3: 
+                administracion();
+                break;
+            case 4:
+                alert("Gracias por usar nuestros servicios, vuelva pronto");
+                break;
+
+            default:
+                alert("Ingrese una opcion valida");
+                break;
+        }
+
+
+    }while(pedir != 4);
+
+    function tanque() {
+        let pago, t, r, requerido;
+        let restantes = 0;
+        let selecciona = parseInt(prompt("selecciona tu tanque \n 1.- 10KG $ 247  \n 2.- 20KG $495 \n 3.- 30KG $742 \n 4.- 45KG $ 1113"));
+        switch (selecciona) {
+            case 1:
+            requerido = prompt("cuantos tanques de 10 KG quiere ?");
+                if (requerido < camion[0]) {
+                    t = 247 * requerido;
+                    pago = prompt("" + requerido + " tanque es de 10KG con Costo de $" + t + " \n Por favor Ingresa El Dinero Recibido");
+                    r = pago - t;
+                    if (pago >= t) {
+                        alert("Pago Exitoso " + " Tu cambio es " + r);
+                        ganancias += r;
+                        for (let i = 0; i < requerido; i++) {
+                        camion[0] = camion[0] - 1;
+                    }
+                    } else {
+                        alert("Falta dinero " + r + " Para completar los $ " + t);
+                        alert("La transaccion fue cancelada");
+                    }   
+                    if (camion[0] > 0) {
+                        alert("quedan " + camion[0] + " tanques");
+                    }else {
+                        alert("Ya no tienes tanques de 10 KG")
+                    } 
+                }else{
+                    alert("No puedes vender "+requerido+" tanques ya que solo tienes "+camion[0]+" tanques");
+                }
+                break;
+            case 2:
+            requerido = prompt("cuantos tanques de 20 KG quiere ?");
+                if (requerido < camion[1]) {
+                    t = 495 * requerido;
+                    pago = prompt("" + requerido + " tanque es de 20KG con Costo de $" + t + " \n Por favor Ingresa El Dinero Recibido");
+                    r = pago - t;
+                    if (pago >= t) {
+                        alert("Pago Exitoso " + " Tu cambio es " + r);
+                        ganancias += t;
+                        for (let i = 0; i < requerido; i++) {
+                        camion[1] = camion[1] - 1;
+                    }
+                    } else {
+                        alert("Falta dinero " + r + " Para completar los $ " + t);
+                        alert("La transaccion fue cancelada");
+                    }   
+                    if (camion[1] > 0) {
+                        alert("quedan " + camion[1] + " tanques");
+                    }else {
+                        alert("Ya no tienes tanques de 20 KG")
+                    } 
+                }else{
+                    alert("No puedes vender "+requerido+" tanques ya que solo tienes "+camion[1]+" tanques");
+                }
+                break;
+            case 3:
+            requerido = prompt("cuantos tanques de 30 KG quiere ?");
+                if (requerido < camion[2]) {
+                    t = 742 * requerido;
+                    pago = prompt("" + requerido + " tanque es de 30KG con Costo de $" + t + " \n Por favor Ingresa El Dinero Recibido");
+                    r = pago - t;
+                    if (pago >= t) {
+                        alert("Pago Exitoso " + " Tu cambio es " + r);
+                        ganancias += t;
+                        for (let i = 0; i < requerido; i++) {
+                        camion[2] = camion[2] - 1;
+                    }
+                    } else {
+                        alert("Falta dinero " + r + " Para completar los $ " + t);
+                        alert("La transaccion fue cancelada");
+                    }   
+                    if (camion[2] > 0) {
+                        alert("quedan " + camion[2] + " tanques");
+                    }else {
+                        alert("Ya no tienes tanques de 30 KG")
+                    } 
+                }else{
+                    alert("No puedes vender "+requerido+" tanques ya que solo tienes "+camion[2]+" tanques");
+                }
+                break;
+            case 4:
+                requerido = prompt("cuantos tanques de 45 KG quiere ?");
+                if (requerido < camion[3]) {
+                    t = 113 * requerido;
+                    pago = prompt("" + requerido + " tanque es de 45KG con Costo de $" + t + " \n Por favor Ingresa El Dinero Recibido");
+                    r = pago - t;
+                    if (pago >= t) {
+                        alert("Pago Exitoso " + " Tu cambio es " + r);
+                        ganancias += t;
+                        for (let i = 0; i < requerido; i++) {
+                        camion[3] = camion[3] - 1;
+                    }
+                    } else {
+                        alert("Falta dinero " + r + " Para completar los $ " + t);
+                        alert("La transaccion fue cancelada");
+                    }   
+                    if (camion[2] > 0) {
+                        alert("quedan " + camion[2] + " tanques");
+                    }else {
+                        alert("Ya no tienes tanques de 45 KG")
+                    } 
+                }else{
+                    alert("No puedes vender "+requerido+" tanques ya que solo tienes "+camion[3]+" tanques");
+                }
+                break;
+            default:
+                alert("por favor, Ingresa una opcion valida")
+                break;
+        }
+    }
+
+    function litros() {
+        
+        var litros = parseInt(prompt("Ingrese los litros que desea comprar"));
+        var precio = litros * 13;
+        var cantidadRecibida = parseInt(prompt("Ingrese la cantidad recibida"));
+        var cantidadDevuelta = cantidadRecibida - precio;
+        var litrosDisponibles = pipa - litros;
+        if (cantidadRecibida => precio) {
+            alert("Gracias por su compra");
+        } else {
+            alert("No se puede realizar la compra por fata de dinero ");
+        }
+        alert("Su pedido es de: " + litros + " litros, " + " el precio es de: " + precio + " pesos" + " la cantidad recibida es de: "
+            + cantidadRecibida + " La cantidad devuelta es: " + cantidadDevuelta);
+        if (litrosDisponibles <= litros) {
+            alert("Favor de ir a la estacion para la carga de gas ");
+        }
+    }
+
+    function administracion() {   
+    let selecciona = parseInt(prompt("1.-Registros de los vehiculos \n 2.-Monto total de las ventas"))
+    switch(selecciona){
+        case 1: 
+        let seleccionar = parseInt(prompt("Selecciona la unidad movil:\n1.-Pipa\n2.-Camion\n"));
+        switch(seleccionar){
+            case 1:
+                let opcion = parseInt(prompt("1.-Cantidad de lt\n2.-Regresar a base"))
+                switch (opcion){
+                case 1:
+                    alert("la cantidad de litros en la pipa es: " + pipa);
+                break;
+                case 2:
+                    alert("La pipa va a regresar a la base");
+                    pipa = 1000;
+                break;
+                }
+            break;
+            case 2:
+            let opcion = parseInt(prompt("1.-cantidad de tanques de cilindros\n2.-Regresar a base"))
+                switch (opcion){
+                case 1:
+                    alert("Cantidad de tanques de 10Kg: "+ camion[0] +"\nCantidad de tanques de 20Kg: "+ camion[1] + "\nCantidad de tanques de 30Kg: " + camion[2] + "\nCantidad de tanques de 45Kg: "+ camion[3]);
+                break;
+                case 2:
+                    alert("El camion va a regresar a la base");
+                    for(let i=0; i < camion.length; i++){
+                        camion[i] = 10;
+                    }
+                break;
+            }
+            break;
+        } 
+        break;
+        case 2:
+            alert("El dinero total de las ventas en el dia es de: "+ ganancias);
+        break;
+    }
+}       
+</script>
