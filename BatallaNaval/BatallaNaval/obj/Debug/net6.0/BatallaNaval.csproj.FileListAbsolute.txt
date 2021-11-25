@@ -1,0 +1,15 @@
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\bin\Debug\net6.0\BatallaNaval.exe
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\bin\Debug\net6.0\BatallaNaval.deps.json
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\bin\Debug\net6.0\BatallaNaval.runtimeconfig.json
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\bin\Debug\net6.0\BatallaNaval.dll
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\bin\Debug\net6.0\ref\BatallaNaval.dll
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\bin\Debug\net6.0\BatallaNaval.pdb
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\obj\Debug\net6.0\BatallaNaval.csproj.AssemblyReference.cache
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\obj\Debug\net6.0\BatallaNaval.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\obj\Debug\net6.0\BatallaNaval.AssemblyInfoInputs.cache
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\obj\Debug\net6.0\BatallaNaval.AssemblyInfo.cs
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\obj\Debug\net6.0\BatallaNaval.csproj.CoreCompileInputs.cache
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\obj\Debug\net6.0\BatallaNaval.dll
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\obj\Debug\net6.0\ref\BatallaNaval.dll
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\obj\Debug\net6.0\BatallaNaval.pdb
+C:\Users\sonic\source\repos\BatallaNaval\BatallaNaval\obj\Debug\net6.0\BatallaNaval.genruntimeconfig.cache

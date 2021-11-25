@@ -1,0 +1,15 @@
+C:\Users\sonic\source\repos\TodoApren\TodoApren\bin\Debug\net6.0\TodoApren.exe
+C:\Users\sonic\source\repos\TodoApren\TodoApren\bin\Debug\net6.0\TodoApren.deps.json
+C:\Users\sonic\source\repos\TodoApren\TodoApren\bin\Debug\net6.0\TodoApren.runtimeconfig.json
+C:\Users\sonic\source\repos\TodoApren\TodoApren\bin\Debug\net6.0\TodoApren.dll
+C:\Users\sonic\source\repos\TodoApren\TodoApren\bin\Debug\net6.0\ref\TodoApren.dll
+C:\Users\sonic\source\repos\TodoApren\TodoApren\bin\Debug\net6.0\TodoApren.pdb
+C:\Users\sonic\source\repos\TodoApren\TodoApren\obj\Debug\net6.0\TodoApren.csproj.AssemblyReference.cache
+C:\Users\sonic\source\repos\TodoApren\TodoApren\obj\Debug\net6.0\TodoApren.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonic\source\repos\TodoApren\TodoApren\obj\Debug\net6.0\TodoApren.AssemblyInfoInputs.cache
+C:\Users\sonic\source\repos\TodoApren\TodoApren\obj\Debug\net6.0\TodoApren.AssemblyInfo.cs
+C:\Users\sonic\source\repos\TodoApren\TodoApren\obj\Debug\net6.0\TodoApren.csproj.CoreCompileInputs.cache
+C:\Users\sonic\source\repos\TodoApren\TodoApren\obj\Debug\net6.0\TodoApren.dll
+C:\Users\sonic\source\repos\TodoApren\TodoApren\obj\Debug\net6.0\ref\TodoApren.dll
+C:\Users\sonic\source\repos\TodoApren\TodoApren\obj\Debug\net6.0\TodoApren.pdb
+C:\Users\sonic\source\repos\TodoApren\TodoApren\obj\Debug\net6.0\TodoApren.genruntimeconfig.cache
